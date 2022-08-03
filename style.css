@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+body {
+    background-color: rgb(52, 73, 94);
+
+}
+
+section {
+    text-align: center;
+}
+
+#title {
+    font-size: 100px;
+    color: #fff;
+    margin: 10px auto;
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+    font-family: 'Bitter', serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+    gap: .5rem;
+    /* border-color: rgb(86,71,121); */
+    /* background-color: rgb(43,47,108); */
+    /* color: #fff; */
+}
+
+.number-cell {
+    border-radius: 30px;
+    background-color: #fff;
+    color: rgb(86, 71, 121);
+    /* border-color: #fff; */
+    font-family: 'Anton', sans-serif;
+
+
+}
+
+.number-cell {
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px 2px 2px;
+    border: 2px solid;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.p_status {
+    margin-top: 2rem;
+    background-color: rgb(157,108,130);
+    width: 300px;
+    height: 70px;
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px rgb(157,108,130);
+    border: 2px solid rgb(157,108,130);
+    border-radius: 20px;
+    font-family: 'Bitter', serif;
+    /* padding-bottom: 2rem; */
+}
+
+.restart {
+    margin-top: 1rem;
+    background-color: rgb(39, 174, 97);
+    width: 300px;
+    height: 50px;
+    font-size: 1.3rem;
+    color: #fff;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px rgb(39, 174, 97);
+    border: 2px solid rgb(39, 174, 97);
+    border-radius: 20px;
+    font-family: 'Bitter', serif;
+
+}
